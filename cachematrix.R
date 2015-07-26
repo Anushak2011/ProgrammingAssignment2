@@ -18,7 +18,7 @@ makeCacheMatrix <- function(x = matrix()) {
     setinverse = setinverse,   ## sets inverse matrix value
     getinverse = getinverse)   ## gets inverse matrix value
 }
-## This next function returns the matrix inverse. IF the matrix has already been calculated, 
+## This second function returns the matrix inverse. IF the matrix has already been calculated, 
 ## it gets the result without repeating the calculation. Otherwise, it calculates the inverse, 
 ## and sets the value in the cache with the "set" function. Again, this function assumes that 
 ## the matrix is always invertible.
